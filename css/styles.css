@@ -55,12 +55,13 @@ img {
 
 .contact-item-link {
     font-style: normal;
+    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .contact-item-link:hover {
     color: var(--ocean);
-    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .header-nav-item:hover .header-item-link {
@@ -106,6 +107,7 @@ img {
     border-radius: 4px;
     padding: 16px 32px;
     gap: 10px;
+    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button {
@@ -120,6 +122,7 @@ img {
     background: var(--cloud);
     font-family: inherit;
     padding: 12px 24px;
+    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -130,7 +133,7 @@ img {
     cursor: pointer;
     border-color: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .hero-button {
@@ -139,7 +142,7 @@ img {
 
 .hero-button:hover {
     background-color: var(--ocean);
-    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 
@@ -407,6 +410,7 @@ ul {
     background-color: var(--iris);
     border-radius: 22px;
     row-gap: 24px;
+    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -419,6 +423,8 @@ ul {
     background-color: var(--iris);
     border-radius: 22px;
     row-gap: 24px;
+    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .footer-icons-link svg {
@@ -507,12 +513,12 @@ ul {
 
 .team-icons-link:hover {
     background-color: var(--ocean);
-    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .footer-icons-link:hover{
     background-color: var(--green);
-    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .customers-logo-item-link {
@@ -539,7 +545,6 @@ ul {
         0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-item:hover figcaption {
@@ -624,7 +629,8 @@ ul {
     margin-top: 24px;
     margin-right: 24px;
     stroke: 1px var(--navyblue);
-    
+    color: var(--navy-blue-modal);
+    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-svg {
@@ -635,7 +641,9 @@ ul {
 
 .modal-close:hover {
     cursor: pointer;
-    transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: var(--ocean);
+    border-color: var(--ocean);
+    fill: var(--cloud);
 }
 
 
