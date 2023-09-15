@@ -8,7 +8,7 @@
 :root {
     --iris: #4D5AE5;
     --ocean: #404BBF;
-    --navyblue: #2E2F42;
+    --navyblue: #2E2F42; 
     --green: #31D0AA;
     --slate: #434455;
     --lightslate: #8E8F99;
@@ -628,8 +628,7 @@ ul {
     background-color: var(--cornflower);
     margin-top: 24px;
     margin-right: 24px;
-    stroke: 1px var(--navyblue);
-    color: var(--navy-blue-modal);
+    fill: var(--navyblue);
     transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
